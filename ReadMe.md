@@ -35,7 +35,13 @@ This implementation enables efficient single image reconstruction through coordi
 
 **Implementation Details:**
 The complete SWAN for single image fitting is available in the [MATLAB directory](https://github.com/THUHoloLab/Swift-hashConvolutional-INR/tree/main/fit_single_image), including example usage and comparison between MLP-based and NGP-based neural representations.
-
+<div align = 'center'>
+<img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/fig2.jpg" width = "800" alt="" align = center />
+<br>
+<em>Fitting ability of SWAN</em>
+</div>
+<br
+  
 ## Key Features
 - **Multi-Resolution Hash Encoding:** Efficient spatial encoding using hash tables at multiple grid resolutions, enabling compact representation of high-frequency details
 - **Convolutional Decoding:** Reshapes encoded features into a 2D feature map that preserves spatial relationships, leveraging convolutional layers for natural image synthesis
