@@ -1,4 +1,11 @@
 # SWAN: Swift hash-convolutional neural representation for differentiable computational imaging
+<div align = 'center'>
+<img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/swan.png" width = "200" alt="" align = center />
+<br>
+<em>Jointly fiting the probe and sample with a single SWAN</em>
+</div>
+<br
+  
   ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?logo=apache)
   ![MATLAB](https://img.shields.io/badge/MATLAB-2024b-red.svg?logo=mathworks)
   ![NVIDIA GPU](https://img.shields.io/badge/gpu-nvidia-green?logo=nvidia)
