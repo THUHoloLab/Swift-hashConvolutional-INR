@@ -35,18 +35,20 @@ The hash grid and the decoding convolutional network are trained by minimizing t
 <br>
 
 ## Why SWAN
-SWAN ingeniously combines the efficient hash encoding of Instant NGP with the local modeling capabilities of convolutional networks. By reshaping the hash features into a 2D grid, it not only retains the implicit representation's ability to fit high-frequency details but also leverages CNN to generate the complete image in a single forward pass, seamlessly adapting to global operations (such as FFT) in computational imaging and completely avoiding the bottleneck of traditional point-by-point inference.
+SWAN ingeniously combines the efficient hash encoding of Instant NGP with the local modeling capabilities of convolutional networks. By reshaping the hash features into a 2D grid, it not only retains the implicit representation's ability to fit high-frequency details but also leverages CNN to generate the complete image in a single forward pass, seamlessly adapting to global operations (such as FFT) in computational imaging and completely avoiding the bottleneck of traditional point-by-point inference.<br>
+
 <div align="center">
   
 | Method | Point-wise Inference | Global Operation Adaptation | Memory Efficiency | Image Prior |
 | :--- | :--- | :--- | :--- | :--- |
 | Pure MLP (SIREN) | ✅ Fully point-wise | ❌ Poor | High | Weak |
 | Instant-NGP | ✅ Point-wise + Hash | ❌ Moderate | Extremely High | Weak |
-| **Your Solution** | ❌ Batch Processing | ✅ Good | High | Moderate (via Conv) |
+| **SWAN** | ❌ Batch Processing | ✅ Good | High | Moderate (via Conv) |
 | CNN Generator | ❌ Single-pass | ✅ Good | Low | Strong |
   
 <div>
-  
+<br>
+
 ## How to use ?
 ### Fitting a single image using SWAN
 For researchers interested in basic SWAN implementation, we provide **MATLAB codes** - a MATLAB adaptation of NVIDIA's Instant Neural Graphics Primitives ([Instant-NGP](https://github.com/NVlabs/instant-ngp)). 
