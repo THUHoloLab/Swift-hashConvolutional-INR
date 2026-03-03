@@ -57,7 +57,7 @@ The hash grid and the decoding convolutional network are trained by minimizing t
 For researchers interested in basic SWAN implementation, we provide **MATLAB codes** - a MATLAB adaptation of NVIDIA's Instant Neural Graphics Primitives ([Instant-NGP](https://github.com/NVlabs/instant-ngp)). 
 This implementation enables efficient single image reconstruction through coordinate-based neural representations similar to a classicial neural representation for a single image.
 
-**Implementation Details:**
+**Implementation Details:** <br>
 The complete SWAN for single image fitting is available in the [MATLAB directory](https://github.com/THUHoloLab/Swift-hashConvolutional-INR/tree/main/fit_single_image), including example usage and comparison between MLP-based and NGP-based neural representations.
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/fig2.jpg" width = "900" alt="" align = center />
@@ -77,9 +77,10 @@ We apply SWAN to near-field ptychography. A structured illumination field is pro
 </div>
 <br>
 
-**Implementation Details:**
+**Implementation Details:** <br>
 The complete SWAN for near-field ptychography is available in the [MATLAB directory](https://github.com/THUHoloLab/Swift-hashConvolutional-INR/tree/main/Nearfield-ptycho), including example usage and comparison between ePIE and instantNGP-based implementation, and SWAN. 
 <br>
+
 Experimental data can be downloaded from [[Google Drive]](https://drive.google.com/drive/folders/100v9EmdUTS7bYjXXNe-zNvprAdxIyfF7?usp=sharing), including diffraction pattern of a quantitative phase target with different structured illuminations.
 
 
