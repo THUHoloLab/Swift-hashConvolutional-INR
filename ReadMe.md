@@ -46,7 +46,7 @@ SWAN ingeniously combines the efficient hash encoding of Instant NGP with the lo
 | **SWAN** | ❌ Batch Processing | ✅ Good | High | Moderate (via Conv) |
 | CNN Generator | ❌ Single-pass | ✅ Good | Low | Strong |
   
-<div>
+</div>
 <br>
 
 ## How to use ?
