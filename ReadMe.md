@@ -1,6 +1,6 @@
 <!-- TOC --><a name="Swift hash-convolutional neural representation"></a>
 # SWAN: Swift hash-convolutional neural representation for differentiable computational imaging
-  ![License](https://img.shields.io/github/license/THUHoloLab/Swift-hashConvolutional-INR-blue?style=flat)
+  ![License](https://img.shields.io/github/license/THUHoloLab/Swift-hashConvolutional-INR?style=flat)
   ![MATLAB](https://img.shields.io/badge/MATLAB-2024b-red.svg?logo=mathworks)
   ![NVIDIA GPU](https://img.shields.io/badge/gpu-nvidia-green?logo=nvidia)
   ![CUDA 12.8](https://img.shields.io/badge/CUDA-12.8-green.svg?logo=nvidia)
