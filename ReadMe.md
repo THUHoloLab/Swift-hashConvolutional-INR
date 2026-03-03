@@ -13,7 +13,8 @@ Inspired by the fast rendering properties of Instant Neural Graphics Primitives 
 <br>
 
 ## Key Features
--**Multi-Resolution Hash Encoding:** Efficient spatial encoding using hash tables at multiple grid resolutions, enabling compact representation of high-frequency details
--**Convolutional Decoding:** Reshapes encoded features into a 2D feature map that preserves spatial relationships, leveraging convolutional layers for natural image synthesis
--**End-to-End Training:** Optimizes both hash grid features and network weights simultaneously for a compact neural representation
--**Fast Inference:** Benefits from both the efficiency of hash-based encoding and the parallel processing capabilities of convolutional networks
+- **Multi-Resolution Hash Encoding:** Efficient spatial encoding using hash tables at multiple grid resolutions, enabling compact representation of high-frequency details
+- **Convolutional Decoding:** Reshapes encoded features into a 2D feature map that preserves spatial relationships, leveraging convolutional layers for natural image synthesis
+- **End-to-End Training:** Optimizes both hash grid features and network weights simultaneously for a compact neural representation
+- **Fast Inference:** Benefits from both the efficiency of hash-based encoding and the parallel processing capabilities of convolutional networks
+<br>
