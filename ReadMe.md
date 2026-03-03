@@ -65,3 +65,14 @@ The complete SWAN for single image fitting is available in the [MATLAB directory
 <em>Fitting ability of SWAN, implemented with NVIDIA RTX 3090 24GB</em>
 </div>
 <br
+  
+### Simultaneously fitting the object field and the structured illumination field with a single SWAN in near-field ptychography
+We apply SWAN to near-field ptychography. A structured illumination field is projected onto a shifting sample, generating multiple diffraction patterns for each shifted position. Following the ptychographic reconstruction pipeline, SWAN jointly models the complex amplitude of both the illumination probe and the sample wavefront, despite their physical independence.
+
+<div align = 'center'>
+<img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/fig3.jpg" width = "800" alt="" align = center />
+<br>
+<em>Fitting ability of SWAN, implemented with NVIDIA RTX 3090 24GB</em>
+</div>
+<br
+
