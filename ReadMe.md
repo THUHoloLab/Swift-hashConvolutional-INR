@@ -78,8 +78,11 @@ We apply SWAN to near-field ptychography. A structured illumination field is pro
 <br>
 
 **Implementation Details:**
+
 The complete SWAN for near-field ptychography is available in the [MATLAB directory](https://github.com/THUHoloLab/Swift-hashConvolutional-INR/tree/main/Nearfield-ptycho), including example usage and comparison between ePIE and instantNGP-based implementation, and SWAN. 
+
 <br>
+
 Experimental data can be downloaded from [[Google Drive]](https://drive.google.com/drive/folders/100v9EmdUTS7bYjXXNe-zNvprAdxIyfF7?usp=sharing), including diffraction pattern of a quantitative phase target with different structured illuminations.
 
 
