@@ -24,7 +24,7 @@ Inspired by the fast rendering properties of Instant Neural Graphics Primitives 
 ### Hash-convolutional neural representation
  SWAN employs a multi-resolution hash grid for positional encoding of input coordinates. The encoded feature vectors are then reshaped into a 2D feature map and decoded by a convolutional network to generate the final output image with desired properties. The hash grid and the decoding convolutional network are trained by minimizing the loss between the predicted image and the output image.
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/fig1.jpg" width = "600" alt="" align = center />
+<img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/fig1.jpg" width = "800" alt="" align = center />
 <br>
 <em>SWAN for simple image representation</em>
 </div>
