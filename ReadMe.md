@@ -1,7 +1,6 @@
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/SWAN.png" width = "200" alt="" align = center />
 </div>
-<br>
 
 # SWAN: Swift hash-convolutional neural representation for differentiable computational imaging
   
