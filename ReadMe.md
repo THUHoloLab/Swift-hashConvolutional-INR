@@ -1,5 +1,5 @@
 <!-- TOC --><a name="Swift hash-convolutional neural representation"></a>
-# Swift hash-convolutional neural representation for differentiable computational imaging
+# SWAN: Swift hash-convolutional neural representation for differentiable computational imaging
 
 Authors: **[Shuhe Zhang](https://github.com/ShuheZhang-MUMC)**, and **[Liangcai Cao](https://scholar.google.com/citations?user=FYYb_-wAAAAJ&hl=en)**
 
