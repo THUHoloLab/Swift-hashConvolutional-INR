@@ -1,4 +1,3 @@
-<img width="1552" height="175" alt="image" src="https://github.com/user-attachments/assets/e701959c-d197-4962-a9cc-ffe1a133bb9b" /><!-- TOC --><a name="Swift hash-convolutional neural representation"></a>
 # SWAN: Swift hash-convolutional neural representation for differentiable computational imaging
   ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?logo=apache)
   ![MATLAB](https://img.shields.io/badge/MATLAB-2024b-red.svg?logo=mathworks)
