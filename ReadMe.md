@@ -44,7 +44,7 @@ The hash grid and the decoding convolutional network are trained by minimizing t
   
 | Method | Point-wise Inference | Global Operation Adaptation | Memory Efficiency | Image Prior |
 | :--- | :--- | :--- | :--- | :--- |
-| Pure MLP (SIREN) | ✅ Fully point-wise | ❌ Poor | High | N/A |
+| Pure MLP | ✅ Fully point-wise | ❌ Poor | High | N/A |
 | Instant-NGP | ✅ Point-wise + Hash | ❌ Moderate | Extremely High | N/A |
 | **SWAN** | ❌ Batch Processing | ✅ Good | High | Moderate (via Conv) |
 | CNN Generator | ❌ Single-pass | ✅ Good | Low | Strong |
