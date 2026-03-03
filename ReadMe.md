@@ -1,4 +1,4 @@
-<!-- TOC --><a name="Swift hash-convolutional neural representation"></a>
+<img width="1552" height="175" alt="image" src="https://github.com/user-attachments/assets/e701959c-d197-4962-a9cc-ffe1a133bb9b" /><!-- TOC --><a name="Swift hash-convolutional neural representation"></a>
 # SWAN: Swift hash-convolutional neural representation for differentiable computational imaging
   ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?logo=apache)
   ![MATLAB](https://img.shields.io/badge/MATLAB-2024b-red.svg?logo=mathworks)
@@ -19,6 +19,16 @@ Inspired by the fast rendering properties of Instant Neural Graphics Primitives 
 📝 **Note 1**: The CUDA codes were writen and tested based on **CUDA v12.8**
 📝 **Note 2**: Ptychographic reconstruction requires **even-numbered** image dimensions to facilitate optimized FFT shift operations. <br>
 📝 **Note 3**: The code requires **MATLAB version at least 2024a** to ensure the [deep.DifferentiableFunction](https://www.mathworks.com/help/deeplearning/ug/define-custom-deep-learning-operations.html) class exist.
+
+## How to use ?
+### Hash-convolutional neural representation
+ SWAN employs a multi-resolution hash grid for positional encoding of input coordinates. The encoded feature vectors are then reshaped into a 2D feature map and decoded by a convolutional network to generate the final output image with desired properties. The hash grid and the decoding convolutional network are trained by minimizing the loss between the predicted image and the output image.
+<div align = 'center'>
+<img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/fig1.jpg" width = "600" alt="" align = center />
+<br>
+<em>SWAN for simple image representation</em>
+</div>
+<br>
 
 ## Key Features
 - **Multi-Resolution Hash Encoding:** Efficient spatial encoding using hash tables at multiple grid resolutions, enabling compact representation of high-frequency details
