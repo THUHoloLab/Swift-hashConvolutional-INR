@@ -25,7 +25,7 @@ The hash grid and the decoding convolutional network are trained by minimizing t
 <br>
 
 📝 **Note 1**: The CUDA codes were writen and tested based on **CUDA v12.8** <br>
-📝 **Note 2**: Ptychographic reconstruction requires **even-numbered** image dimensions to facilitate optimized FFT shift operations. <br>
+📝 **Note 2**: Ptychographic reconstruction requires **even-numbered** image dimensions for optimized fftshift operations. <br>
 📝 **Note 3**: The code requires **MATLAB version at least 2024a** to ensure the [deep.DifferentiableFunction](https://www.mathworks.com/help/deeplearning/ug/define-custom-deep-learning-operations.html) class exist. <br>
 
 ## How to use ?
