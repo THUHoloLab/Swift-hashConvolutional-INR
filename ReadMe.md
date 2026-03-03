@@ -73,7 +73,7 @@ We apply SWAN to near-field ptychography. A structured illumination field is pro
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/fig3.jpg" width = "600" alt="" align = center />
 <br>
-<em>Fitting ability of SWAN, implemented with NVIDIA RTX 3090 24GB</em>
+<em>jointly fiting the probe and sample with a single SWAN./em>
 </div>
 <br>
 
