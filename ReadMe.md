@@ -1,6 +1,10 @@
 <!-- TOC --><a name="Swift hash-convolutional neural representation"></a>
 # SWAN: Swift hash-convolutional neural representation for differentiable computational imaging
-
+  ![License](https://img.shields.io/badge/License-MIT-green.svg?logo=mit)
+  ![MATLAB](https://img.shields.io/badge/MATLAB-2024b-red.svg?logo=mathworks)
+  ![NVIDIA GPU](https://img.shields.io/badge/gpu-nvidia-green?logo=nvidia)
+  ![CUDA 12.8](https://img.shields.io/badge/CUDA-12.8-green.svg?logo=nvidia)
+  
 Authors: **[Shuhe Zhang](https://github.com/ShuheZhang-MUMC)**, and **[Liangcai Cao](https://scholar.google.com/citations?user=FYYb_-wAAAAJ&hl=en)**
 
 :school: *[**HoloLab**](http://www.holoddd.com/), Tsinghua University*
