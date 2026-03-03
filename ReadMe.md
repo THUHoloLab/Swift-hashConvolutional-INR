@@ -28,6 +28,14 @@ The hash grid and the decoding convolutional network are trained by minimizing t
 📝 **Note 2**: Ptychographic reconstruction requires **even-numbered** image dimensions for optimized fftshift operations. <br>
 📝 **Note 3**: The code requires **MATLAB version at least 2024a** to ensure the [deep.DifferentiableFunction](https://www.mathworks.com/help/deeplearning/ug/define-custom-deep-learning-operations.html) class exist. <br>
 
+## Key Features
+- **Multi-Resolution Hash Encoding:** Efficient spatial encoding using hash tables at multiple grid resolutions, enabling compact representation of high-frequency details
+- **Convolutional Decoding:** Reshapes encoded features into a 2D feature map that preserves spatial relationships, leveraging convolutional layers for natural image synthesis
+- **End-to-End Training:** Optimizes both hash grid features and network weights simultaneously for a compact neural representation
+- **Fast Inference:** Benefits from both the efficiency of hash-based encoding and the parallel processing capabilities of convolutional networks
+<br>
+
+
 ## How to use ?
 ### Fitting a single image using SWAN
 For researchers interested in basic SWAN implementation, we provide **MATLAB codes** - a MATLAB adaptation of NVIDIA's Instant Neural Graphics Primitives ([Instant-NGP](https://github.com/NVlabs/instant-ngp)). 
@@ -41,10 +49,3 @@ The complete SWAN for single image fitting is available in the [MATLAB directory
 <em>Fitting ability of SWAN</em>
 </div>
 <br
-  
-## Key Features
-- **Multi-Resolution Hash Encoding:** Efficient spatial encoding using hash tables at multiple grid resolutions, enabling compact representation of high-frequency details
-- **Convolutional Decoding:** Reshapes encoded features into a 2D feature map that preserves spatial relationships, leveraging convolutional layers for natural image synthesis
-- **End-to-End Training:** Optimizes both hash grid features and network weights simultaneously for a compact neural representation
-- **Fast Inference:** Benefits from both the efficiency of hash-based encoding and the parallel processing capabilities of convolutional networks
-<br>
