@@ -71,7 +71,7 @@ The complete SWAN for single image fitting is available in the [MATLAB directory
 We apply SWAN to near-field ptychography. A structured illumination field is projected onto a shifting sample, generating multiple diffraction patterns for each shifted position. Following the ptychographic reconstruction pipeline, SWAN jointly models the complex amplitude of both the illumination probe and the sample wavefront, despite their physical independence.
 
 <div align = 'center'>
-<img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/fig3.jpg" width = "600" alt="" align = center />
+<img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/fig3.jpg" width = "900" alt="" align = center />
 <br>
 <em>jointly fiting the probe and sample with a single SWAN./em>
 </div>
