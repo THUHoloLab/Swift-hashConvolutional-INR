@@ -13,7 +13,15 @@ Authors: **[Shuhe Zhang](https://github.com/ShuheZhang-MUMC)**, and **[Liangcai 
 <br>
 This is the MATLAB code for the implementation of swift hash-convolutional neural representation (SWAN), a convolutional network-based neural representation for image combined with hash-based positional encoding. <br>
 <br>
-Inspired by the fast rendering properties of Instant Neural Graphics Primitives (Instant-NGP), SWAN employs a multi-resolution hash grid for positional encoding of input coordinates. The encoded feature vectors are then reshaped into a 2D feature map and decoded by a convolutional network to generate the final output image with desired properties. <br>
+Inspired by the fast rendering properties of NVIDIA's Instant Neural Graphics Primitives ([Instant-NGP](https://github.com/NVlabs/instant-ngp)), SWAN employs a multi-resolution hash grid for positional encoding of input coordinates. The encoded feature vectors are then reshaped into a 2D feature map and decoded by a convolutional network to generate the final output image with desired properties. <br>
+<br>
+
+The hash grid and the decoding convolutional network are trained by minimizing the loss between the predicted image and the output image.
+<div align = 'center'>
+<img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/fig1.jpg" width = "800" alt="" align = center />
+<br>
+<em>SWAN for simple image representation</em>
+</div>
 <br>
 
 📝 **Note 1**: The CUDA codes were writen and tested based on **CUDA v12.8**
@@ -21,14 +29,12 @@ Inspired by the fast rendering properties of Instant Neural Graphics Primitives 
 📝 **Note 3**: The code requires **MATLAB version at least 2024a** to ensure the [deep.DifferentiableFunction](https://www.mathworks.com/help/deeplearning/ug/define-custom-deep-learning-operations.html) class exist.
 
 ## How to use ?
-### Hash-convolutional neural representation
- SWAN employs a multi-resolution hash grid for positional encoding of input coordinates. The encoded feature vectors are then reshaped into a 2D feature map and decoded by a convolutional network to generate the final output image with desired properties. The hash grid and the decoding convolutional network are trained by minimizing the loss between the predicted image and the output image.
-<div align = 'center'>
-<img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/fig1.jpg" width = "800" alt="" align = center />
-<br>
-<em>SWAN for simple image representation</em>
-</div>
-<br>
+### Fitting a single image using SWAN
+For researchers interested in basic SWAN implementation, we provide **MATLAB codes** - a MATLAB adaptation of NVIDIA's Instant Neural Graphics Primitives ([Instant-NGP](https://github.com/NVlabs/instant-ngp)). 
+This implementation enables efficient single image reconstruction through coordinate-based neural representations similar to a classicial neural representation for a single image.
+
+**Implementation Details:**
+The complete SWAN for single image fitting is available in the [MATLAB directory](https://github.com/THUHoloLab/Swift-hashConvolutional-INR/tree/main/fit_single_image), including example usage and comparison between MLP-based and NGP-based neural representations.
 
 ## Key Features
 - **Multi-Resolution Hash Encoding:** Efficient spatial encoding using hash tables at multiple grid resolutions, enabling compact representation of high-frequency details
