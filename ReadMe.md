@@ -83,4 +83,10 @@ The complete SWAN for near-field ptychography is available in the [MATLAB direct
 
 Experimental data can be downloaded from [[Google Drive]](https://drive.google.com/drive/folders/100v9EmdUTS7bYjXXNe-zNvprAdxIyfF7?usp=sharing), including diffraction pattern of a quantitative phase target with different structured illuminations.
 
+<div align = 'center'>
+<img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/USAF_recon.gif" width = "800" alt="" align = center />
+<br>
+<em>SWAN for simple image representation</em>
+</div>
+<br>
 
