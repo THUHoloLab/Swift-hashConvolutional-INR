@@ -86,7 +86,7 @@ Experimental data can be downloaded from [[Google Drive]](https://drive.google.c
 <div align = 'center'>
 <img src = "https://github.com/THUHoloLab/Swift-hashConvolutional-INR/blob/main/resources/USAF_recon.gif" width = "800" alt="" align = center />
 <br>
-<em>SWAN for simple image representation</em>
+<em>SWAN for near-field ptychography with coded illumination reconstruction.</em>
 </div>
 <br>
 
