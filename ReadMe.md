@@ -11,6 +11,7 @@ Authors: **[Shuhe Zhang](https://github.com/ShuheZhang-MUMC)**, and **[Liangcai 
 
 <br>
 This is the MATLAB code for the implementation of swift hash-convolutional neural representation (SWAN), a convolutional network-based neural representation for image combined with hash-based positional encoding. <br>
+<br>
 
 Inspired by the fast rendering properties of NVIDIA's Instant Neural Graphics Primitives [Instant-NGP](https://github.com/NVlabs/instant-ngp), SWAN employs a multi-resolution hash grid for positional encoding of input coordinates. The encoded feature vectors are then reshaped into a 2D feature map and decoded by a convolutional network to generate the final output image with desired properties. <br>
 <br>
